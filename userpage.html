@@ -1,0 +1,24 @@
+<html>
+<head>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <h2><center>User Login Page</center></h2>
+
+
+  <form action="/action_page.php">
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      <button type="button" onclick="UserLogIn()" class="button" name="button">Log In</button>
+      <button type="button" onclick="AddUser()" class="button" name="button">New User?</button>
+      <button type="button" onclick="AdminPage()" class="button" name="button">Not a User?</button>
+
+    </div>
+  </form>
+
+  </html>
